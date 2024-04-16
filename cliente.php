@@ -55,11 +55,11 @@ class cliente{
 
     public function __toString(){
         return 
-        "\n Nombre: ".$this->nombre.
-        "\n Apellido: ".$this->apellido.
-        "\n Estado de baja: ".$this->estadoDeBaja.
-        "\n Tipo de documento: ".$this->tipoDocumento.
-        "\n Numero de documento: ".$this->numeroDocumento
+        "\n Nombre: ".$this->getNombre().
+        "\n Apellido: ".$this->getApellido().
+        "\n Estado de baja: ".$this->getEstadoBaja().
+        "\n Tipo de documento: ".$this->getTipoDoc().
+        "\n Numero de documento: ".$this->getNumDoc()
         ;
 
     }
